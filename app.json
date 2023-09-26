@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "expo-49",
-    "slug": "expo-49",
+    "slug": "nabechat-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -35,6 +35,15 @@
     "experiments": {
       "tsconfigPaths": true,
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ad5179df-d8bf-4f0c-b673-ef3e52489d4a"
+      }
+    },
+    "owner": "foestauf"
   }
 }
