@@ -2,12 +2,11 @@ import { View, Button, Text, StyleSheet } from 'react-native';
 import { useAuth0 } from 'react-native-auth0';
 
 export const AuthComponent = () => {
-  const { authorize, clearSession, user, error, isLoading, getCredentials } = useAuth0();
+  const { authorize, clearSession, user, error, isLoading } = useAuth0();
 
   const onLogin = async () => {
     try {
       await authorize();
-      const creds = await getCredentials();
     } catch (e) {
       console.log(e);
     }
