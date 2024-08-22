@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.foestauf.nabechat"
@@ -42,7 +44,9 @@
           "domain": "dev-ifllkdme23pyn102.us.auth0.com",
           "customScheme": "com.foestauf.nabechat"
         }
-      ]
+      ],
+      "expo-font",
+      "expo-secure-store"
     ],
     "experiments": {
       "tsconfigPaths": true,
